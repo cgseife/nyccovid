@@ -214,5 +214,6 @@ print (dictjson, file=jsonfile)
 jsonfile.close()
 
 datelist = generate_datelist(zerodate,180)
-fieldname = "DEATH_COUNT"
-print_tsv_to_file(datadict,fieldname)
+fieldnamelist = ["DEATH_COUNT","HOSPITALIZED_CASE_COUNT","NEW_COVID_CASE_COUNT"]
+for fieldname in fieldnamelist:
+    print_tsv_to_file(datadict,fieldname)
