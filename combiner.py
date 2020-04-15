@@ -23,7 +23,9 @@ def days_in_month(num):
     return answer;
 
 def rectify_header(inheader):
-    if inheader == "DIAGNOSIS_DATE":
+    if inheader == "DIAGNOSIS_DATE": # Early datasets
+        outheader = "DATE_OF_INTEREST"
+    elif "retrieving" in inheader.lower(): #"Retrieving data..." 4/15 dataset
         outheader = "DATE_OF_INTEREST"
     else:
         outheader = inheader

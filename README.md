@@ -9,13 +9,15 @@ Dictionary:  	keys = Dates of report (MMDD)<br>
 				date of interest,<br>
 				new covid cases (presumably positive tests as of date)<br>
 				hospitalized case count <br>
-				death count (cumulative deaths as of date, as known on report date)<br>
+				death count (deaths on date, as known on report date)<br>
 
 That is, the dictionary contains all the NYC case/hosp/death tables, one per day of report.
 
 # KNOWN ISSUES
 Data for 3/28 and 3/29 are not presently available. <br>
-The 4/13 update, which came mid-day rather than at COB, updated cases, but not hospitalizations or deaths.
+4/13 update, which came mid-day rather than at COB, updated cases, but not hospitalizations or deaths.<br>
+4/14 update also came at mid-day; this time, both cases and deaths were updated up to 4/13 (prior updates had day-of numbers rather than day-before updates); this makes the update roughly equivalent to what one would have expected for the old-style 4/13 update. As a consequence, there is functionally a 1-day discontinuity in the data. Also, hospitalizations appear not to have been updated, even though deaths have been.<br>
+4/15 DATE_OF_INTEREST header is mislabeled. Error is rectified when combiner.py is run. Hospitalized count is still one day behind.
 
 # DATA SOURCES
 NYCDOHMH: <br>
