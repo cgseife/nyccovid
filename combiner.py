@@ -308,14 +308,14 @@ for fieldname in fieldnamelist:
 
 summaryvaluefilename = "summaryvalues.tsv"
 summaryvaluefile = open(summaryvaluefilename,"w")
-headerlist = ['summary_date']
+headerlist = []
 for date in summarydict.keys(): #get all headers
     datadict = summarydict[date]
     for rawheader in datadict.keys():
         header = rectify_header(rawheader)
         if header not in headerlist:
             headerlist.append(header)
-print (delimiter.join(headerlist),file=summaryvaluefile) #print headers to file
+print ('summary_date'+delimiter+delimiter.join(headerlist),file=summaryvaluefile) #print headers to file
 for date in summarydict.keys():
     outstring = date
     datadict = summarydict[date]
