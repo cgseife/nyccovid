@@ -72,7 +72,7 @@ def rectify_datalist(inlist):
 # IN: file pointer to DOHMH "csv" file, (delimiter)
 # OUT: list containing the header (list) and data (list)
 #
-def parse_file(infileptr):
+def parse_deathsfile(infileptr):
     outlist = []
     tableheadstring = "<thead>"
     headsplit = "<th>"
@@ -110,6 +110,81 @@ def parse_file(infileptr):
         outlist.append(rectify_datalist(datalist))
             
     return outlist;
+
+def kill_badchars(instring):
+    badcharlist = ['*',':',' ']
+    outstring = instring
+    for badchar in badcharlist:
+        outstring = outstring.replace(badchar,"")
+    return outstring;
+
+##
+# PROCEDURE parse_summaryfile
+# IN: file pointer to DOHMH "summary.csv" file, (delimiter)
+# OUT: dictionary containing the header (key) and datum (value)
+#
+def parse_summaryfile(infileptr):
+    outlist = []
+    datadict = {}
+    tableheadstring = "<thead>"
+    headsplit = "<th>"
+    tablebodyindicator = "<tbody>"
+    tablebodyendindicator = "<\tbody>"
+    datasplit = "<td>"
+    wholepage = infilepointer.read().decode('utf-8',errors='ignore')
+    headstartindex = wholepage.find(tableheadstring)
+    if len(tableheadstring) > -1:
+        trimmedpage = wholepage[headstartindex:]
+    else:
+        trimmedpage = ""
+        print("Trim error...")
+    headsplitlist = trimmedpage.split(headsplit)
+    newrawheader = headsplitlist[1]
+    endindex =newrawheader.find("<")
+    newheader = "summary_"+kill_badchars(newrawheader[:endindex]).lower()
+    newrawdatum = headsplitlist[2]
+    endindex =newrawdatum.find("<")    
+    newdatum = kill_badchars(newrawdatum[:endindex]).lower()
+    datadict[newheader] = newdatum
+    bodystart = trimmedpage.find(tablebodyindicator)
+    bodyend = trimmedpage.find(tablebodyendindicator)
+    trimmedpage = trimmedpage[bodystart:bodyend]
+    datasplitlist = trimmedpage.split(datasplit)
+    numfields = int((len(datasplitlist) - 1)/2)
+    for i in range (0,numfields):
+        headerindex = i*2 + 1
+        datumindex = i*2 + 2
+        newrawheader = datasplitlist[headerindex]
+        newrawdatum = datasplitlist[datumindex]
+        endindex =newrawheader.find("<")
+        newheader = "summary_"+kill_badchars(newrawheader[:endindex]).lower()
+        endindex =newrawdatum.find("<")
+        newdatum = kill_badchars(newrawdatum[:endindex]).lower()
+        datadict[newheader]=newdatum
+        
+    
+#    rawheaderlist = trimmedpage.split(headsplit)
+#    for i in range(1,len(rawheaderlist)):
+#        rawheader = rawheaderlist[i]
+#        endbracketindex = rawheader.find("<")
+#        header = rawheader[:endbracketindex]
+#        headerlist.append(rectify_header(header))
+#    outlist.append(headerlist)
+#
+#    tablebodyindex = trimmedpage.find(tablebodyindicator)
+#    trimmedpage = trimmedpage[tablebodyindex:]
+#    rawentrylist = trimmedpage.split(entrysplit)
+#    for i in range(1,len(rawentrylist)):
+#        rawentry = rawentrylist[i]
+#        rawdatalist = rawentry.split(datasplit)
+#        datalist = []
+#        for j in range (1, len(rawdatalist)):
+#            rawdatum = rawdatalist[j]
+#            endbracketindex = rawdatum.find("<")
+#            datum = rawdatum[:endbracketindex]
+#            datalist.append(datum)
+#        outlist.append(rectify_datalist(datalist))        
+    return datadict;
 
 
 ##
@@ -167,8 +242,9 @@ def print_tsv_to_file(indict,targetfieldname,delimiter="\t"):
 ### MAIN BODY ###
 
 
-outdelimiter = "\t"
-fileprefix = "case-hosp-death."
+delimiter = "\t"
+deathsfileprefix = "case-hosp-death."
+summaryfileprefix = "summary."
 filesuffix = ".csv"
 earliestmonth = 3
 earliestday = 25
@@ -190,6 +266,7 @@ while not validanswer:
 
 
 datadict = {}
+summarydict = {}
 for month in range(earliestmonth,lastmonth+1):
     if month == earliestmonth:
         startday = earliestday
@@ -201,14 +278,23 @@ for month in range(earliestmonth,lastmonth+1):
         endday = days_in_month(month)
     for day in range (startday,endday+1):
         infix = two_digitify(month) + two_digitify(day)
-        filename = fileprefix + infix + filesuffix
+        deathsfilename = deathsfileprefix + infix + filesuffix
         try:
-            infilepointer = open(filename,"rb")
-            newdatalist = parse_file(infilepointer)
+            infilepointer = open(deathsfilename,"rb")
+            newdatalist = parse_deathsfile(infilepointer)
             datadict[infix] = newdatalist
             infilepointer.close()
         except:
-            print("File problem on date",infix)
+            print("Deaths file problem on date",infix)
+        summaryfilename = summaryfileprefix + infix + filesuffix
+        if (month > 4) or ((month == 4) and (day >= 15)): #when summary files became available
+            try:
+                infilepointer = open(summaryfilename,"rb")
+                newdatadict = parse_summaryfile(infilepointer)
+                summarydict[infix] = newdatadict
+                infilepointer.close()
+            except:
+                print("Summary file problem on date",infix)
 
 jsonfile = open(jsonfilename,"w")
 dictjson = json.dumps(datadict)
@@ -219,3 +305,23 @@ datelist = generate_datelist(zerodate,180)
 fieldnamelist = ["DEATH_COUNT","HOSPITALIZED_CASE_COUNT","NEW_COVID_CASE_COUNT"]
 for fieldname in fieldnamelist:
     print_tsv_to_file(datadict,fieldname)
+
+summaryvaluefilename = "summaryvalues.tsv"
+summaryvaluefile = open(summaryvaluefilename,"w")
+headerlist = []
+for date in summarydict.keys(): #get all headers
+    datadict = summarydict[date]
+    for rawheader in datadict.keys():
+        header = rectify_header(rawheader)
+        if header not in headerlist:
+            headerlist.append(header)
+print (delimiter.join(headerlist),file=summaryvaluefile) #print headers to file
+for date in summarydict.keys():
+    outstring = date
+    datadict = summarydict[date]
+    for header in headerlist:
+        outstring += delimiter
+        if header in datadict.keys():
+            outstring += datadict[header]
+    print (outstring,file=summaryvaluefile)
+
