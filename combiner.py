@@ -308,7 +308,7 @@ for fieldname in fieldnamelist:
 
 summaryvaluefilename = "summaryvalues.tsv"
 summaryvaluefile = open(summaryvaluefilename,"w")
-headerlist = []
+headerlist = ['summary_date']
 for date in summarydict.keys(): #get all headers
     datadict = summarydict[date]
     for rawheader in datadict.keys():
