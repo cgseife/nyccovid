@@ -13,6 +13,12 @@ Dictionary:  	keys = Dates of report (MMDD)<br>
 
 That is, the dictionary contains all the NYC case/hosp/death tables, one per day of report.
 
+# Excel sheets
+probables.xlsx = accounting of NYC "probable" deaths; digitized from graphs in pdfs folder.<br>
+influenza.xlsx = 1918 influenza numbers, digitized; source: https://www.archives.nyc/blog/2018/3/1/the-flu-epidemic-of-1918 <br>
+clinicaltrials18Apr.xls = a (somewhat unrelated) excel sheet of covid clinical trials, with analysis of their methodology<br>
+
+
 # KNOWN ISSUES
 Data for 3/28 and 3/29 are not presently available. <br>
 4/13 update, which came mid-day rather than at COB, updated cases, but not hospitalizations or deaths.<br>
