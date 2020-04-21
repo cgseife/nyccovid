@@ -341,10 +341,10 @@ for date in datadict.keys(): #pad short lists appropriately
         datum = datalist[i]
         if len(datum) != len(headerlist):
             delta = len(headerlist) - len(datum)
-            for i in range(0,delta):
-                datum.append("0")
-            datalist[i]=datum
-    datadict[date] = datalist
+            for k in range(0,delta):
+                datum.append(0)
+#            datalist[k]=datum
+#    datadict[date] = datalist
     
     
 
