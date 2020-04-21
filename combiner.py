@@ -219,13 +219,19 @@ def print_tsv_to_file(indict,targetfieldname,delimiter="\t"):
         for filedate in keyiterable:
             currentfile = indict[filedate]
             dateindex = currentfile[0].index(datefieldname)
-            targetindex = currentfile[0].index(targetfieldname)
+            if targetfieldname in currentfile[0]:
+                targetindex = currentfile[0].index(targetfieldname)
+            else:
+                targetindex = -1
             i = 1
             while i > 0:
                 testdatum = currentfile[i]
                 testdate = testdatum[dateindex]
                 if testdate == date:
-                    target = str(testdatum[targetindex])
+                    if (targetindex > -1) and (targetindex < len(testdatum)):
+                        target = str(testdatum[targetindex])
+                    else:
+                        target = "0"
                     i = -1
                 else:
                     i+=1
@@ -244,11 +250,13 @@ def print_tsv_to_file(indict,targetfieldname,delimiter="\t"):
 
 delimiter = "\t"
 deathsfileprefix = "case-hosp-death."
+probsfileprefix = "probable-confirmed-dod."
 summaryfileprefix = "summary."
 filesuffix = ".csv"
 earliestmonth = 3
 earliestday = 25
 zerodate = "0301"
+datefield = "DATE_OF_INTEREST"
 
 jsonfilename = "nyc-case-hosp-death.json"
 
@@ -295,6 +303,50 @@ for month in range(earliestmonth,lastmonth+1):
                 infilepointer.close()
             except:
                 print("Summary file problem on date",infix)
+        probsfilename = probsfileprefix + infix + filesuffix
+        if (month > 4) or ((month == 4) and (day >= 19)): #when probs files became available
+            try:
+                infilepointer = open(probsfilename,"rb")
+                newdatalist = parse_deathsfile(infilepointer)
+                newheaderlist = newdatalist[0]
+                newdateindex = newheaderlist.index(datefield)
+                olddatalist = datadict[infix]
+                oldheaderlist = olddatalist[0]
+                olddateindex = oldheaderlist.index(datefield)
+                numnewheaders = 0
+                for header in newheaderlist:
+                    if header not in oldheaderlist:
+                        numnewheaders+=1
+                for i in range(1,len(newdatalist)):
+                    datum = newdatalist[i]
+                    counter = 1
+                    while olddatalist[counter][olddateindex] != datum[newdateindex]:
+                        counter+=1
+                    for j in range (0,len(datum)):
+                        if newheaderlist[j] not in oldheaderlist:
+                            olddatalist[counter].append(datum[j])
+                for header in newheaderlist:
+                    if header not in oldheaderlist:
+                        olddatalist[0].append(header)
+                datadict[infix] = olddatalist
+                infilepointer.close()
+            except:
+                print("Probables file problem on date",infix)
+
+for date in datadict.keys(): #pad short lists appropriately
+    datalist = datadict[date]
+    headerlist = datalist[0]
+    headerlength = len(headerlist)
+    for i in range(1,len(datalist)):
+        datum = datalist[i]
+        if len(datum) != len(headerlist):
+            delta = len(headerlist) - len(datum)
+            for i in range(0,delta):
+                datum.append("0")
+            datalist[i]=datum
+    datadict[date] = datalist
+    
+    
 
 jsonfile = open(jsonfilename,"w")
 dictjson = json.dumps(datadict)
@@ -302,7 +354,7 @@ print (dictjson, file=jsonfile)
 jsonfile.close()
 
 datelist = generate_datelist(zerodate,180)
-fieldnamelist = ["DEATH_COUNT","HOSPITALIZED_CASE_COUNT","NEW_COVID_CASE_COUNT"]
+fieldnamelist = ["DEATH_COUNT","HOSPITALIZED_CASE_COUNT","NEW_COVID_CASE_COUNT","PROBABLE_DEATHS"]
 for fieldname in fieldnamelist:
     print_tsv_to_file(datadict,fieldname)
 
