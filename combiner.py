@@ -29,6 +29,8 @@ def rectify_header(inheader):
         outheader = "DATE_OF_INTEREST"
     elif inheader.upper()=="DATE_OF_DEATH":
         outheader = "DATE_OF_INTEREST"
+    elif inheader.upper() == "PROBABLE_COUNT":
+        outheader = "PROBABLE_DEATHS"
     else:
         outheader = inheader
     return outheader;
@@ -316,7 +318,8 @@ for month in range(earliestmonth,lastmonth+1):
                 oldheaderlist = olddatalist[0]
                 olddateindex = oldheaderlist.index(datefield)
                 numnewheaders = 0
-                for header in newheaderlist:
+                for rawheader in newheaderlist:
+                    header = rectify_header(rawheader)
                     if header not in oldheaderlist:
                         numnewheaders+=1
                 for i in range(1,len(newdatalist)):
@@ -325,9 +328,10 @@ for month in range(earliestmonth,lastmonth+1):
                     while olddatalist[counter][olddateindex] != datum[newdateindex]:
                         counter+=1
                     for j in range (0,len(datum)):
-                        if newheaderlist[j] not in oldheaderlist:
+                        if rectify_header(newheaderlist[j]) not in oldheaderlist:
                             olddatalist[counter].append(datum[j])
-                for header in newheaderlist:
+                for rawheader in newheaderlist:
+                    header = rectify_header(rawheader)
                     if header not in oldheaderlist:
                         olddatalist[0].append(header)
                 datadict[infix] = olddatalist
