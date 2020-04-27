@@ -27,6 +27,8 @@ def rectify_header(inheader):
         outheader = "DATE_OF_INTEREST"
     elif "retrieving" in inheader.lower(): #"Retrieving data..." 4/15 dataset
         outheader = "DATE_OF_INTEREST"
+    elif inheader.upper()=="DATE_OF_DEATH":
+        outheader = "DATE_OF_INTEREST"
     else:
         outheader = inheader
     return outheader;
