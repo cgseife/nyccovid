@@ -31,6 +31,8 @@ def rectify_header(inheader):
         outheader = "DATE_OF_INTEREST"
     elif inheader.upper() == "PROBABLE_COUNT":
         outheader = "PROBABLE_DEATHS"
+    elif inheader.upper() == "HOSPITALIZED_COUNT":
+        outheader = "HOSPITALIZED_CASE_COUNT"
     else:
         outheader = inheader
     return outheader;
