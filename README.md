@@ -10,8 +10,9 @@ Dictionary:  	keys = Dates of report (MMDD)<br>
 				new covid cases (presumably positive tests as of date)<br>
 				hospitalized case count <br>
 				death count (deaths on date, as known on report date)<br>
-
-That is, the dictionary contains all the NYC case/hosp/death tables, one per day of report.
+				probables deaths (probable deaths on date, as known on report date) after 4/19<br>
+				confirmed deaths (should be duplicate of death count, but from probables file) after 4/19<br>
+That is, the dictionary contains all the NYC case/hosp/death tables and prob/conf/dod tables, one per day of report.
 
 # Excel sheets
 probables.xlsx = accounting of NYC "probable" deaths; digitized from graphs in pdfs folder.<br>
@@ -25,6 +26,7 @@ Data for 3/28 and 3/29 are not presently available. <br>
 4/14 update also came at mid-day; this time, both cases and deaths were updated up to 4/13 (prior updates had day-of numbers rather than day-before updates); this makes the update roughly equivalent to what one would have expected for the old-style 4/13 update. As a consequence, there is functionally a 1-day discontinuity in the data. Also, hospitalizations appear not to have been updated, even though deaths have been.<br>
 4/15 DATE_OF_INTEREST header is mislabeled. Error is rectified when combiner.py is run. Hospitalized count is still one day behind.<br>
 4/27 DATE_OF_INTEREST header, PROBABLE_DEATHS header are mislabeled in probable/confirmed file. Error is rectified when combiner.py is run. (NYCDOHMH, why you change field names?)
+5/9 in probables-confirmed-dod.0509.csv file, terminal date was 5/13/20 rather than 5/8/20 as it should have been; I have manually altered the original to reflect the actual value. (Hence, unless corrected on NYC's part, my data may differ from NYC's original data in this instance.)
 
 # DATA SOURCES
 NYCDOHMH: <br>
