@@ -19,7 +19,7 @@
 
   <link crossorigin="anonymous" media="all" integrity="sha512-FG+rXqMOivrAjdEQE7tO4BwM1poGmg70hJFTlNSxjX87grtrZ6UnPR8NkzwUHlQEGviu9XuRYeO8zH9YwvZhdg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-146fab5ea30e8afac08dd11013bb4ee0.css" />
   
-    <link crossorigin="anonymous" media="all" integrity="sha512-qO2Tm/wpU/8efEXj8K05xEmKMF4f+pJ3ME8r2EUBhPoRmuphdxJVSG88gV5iWqOlSxD8DP9rpsTjFgOdQ0/enA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-a8ed939bfc2953ff1e7c45e3f0ad39c4.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-4UAVdB32JKkz9pjY4W9RqhGklmoD5faAMxsGFK151ygppZVH2JWiOizjKAA88r1SEh40Vao4P8voZVRZUGfLNw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-e14015741df624a933f698d8e16f51aa.css" />
     
     
     
@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>coronavirus-data/probable-confirmed-dod.csv at master · nychealth/coronavirus-data</title>
+  <title>coronavirus-data/summary.csv at master · nychealth/coronavirus-data</title>
     <meta name="description" content="Contribute to nychealth/coronavirus-data development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/62506468?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="nychealth/coronavirus-data" /><meta property="og:url" content="https://github.com/nychealth/coronavirus-data" /><meta property="og:description" content="Contribute to nychealth/coronavirus-data development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTE2NDY0ODQ3OmY0OWJmM2U0ZDFmNjMxYjVhZWQyOTdkNDJjZmNjYzYyZjU4YWExMmU5ZjhjZWUwY2E5M2I3YTVmNThhMDkzYjI=--2f999ceb21034daa8b6d368b34f0fa378674bb83">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTE2NDY0ODQ3OjU4MDY1NDZlYzA4MGE5N2E5MDg2MmQyMDNhYzBmYzA2MTA3ODJlYTM0ZDhiMjgwYWE1YzllMDQ2MWEzNDQ2MGI=--200c85d6f814104acd03608caa27f0c5fe9ebcb0">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="E9E0:3FD9:7F890:B2EB6:5EC4A18E" data-pjax-transient="true" /><meta name="html-safe-nonce" content="586f0dd8c9c3fc80d1ec9d4e1d013f9e85e185db" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ueWNoZWFsdGgvY29yb25hdmlydXMtZGF0YS90cmVlL21hc3Rlci9kZWF0aHMiLCJyZXF1ZXN0X2lkIjoiRTlFMDozRkQ5OjdGODkwOkIyRUI2OjVFQzRBMThFIiwidmlzaXRvcl9pZCI6IjU1MjIxNzQyODcyOTE5MzY2MyIsInJlZ2lvbl9lZGdlIjoiYXAtc291dGhlYXN0LTIiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="02e6716d7fc3f709b88291d08e801396123900a8e495e5284e4fe201b60e574c" data-pjax-transient="true" />
+  <meta name="request-id" content="F1F6:1231:388693:4EC56B:5EC6C11D" data-pjax-transient="true" /><meta name="html-safe-nonce" content="586f0dd8c9c3fc80d1ec9d4e1d013f9e85e185db" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ueWNoZWFsdGgvY29yb25hdmlydXMtZGF0YSIsInJlcXVlc3RfaWQiOiJGMUY2OjEyMzE6Mzg4NjkzOjRFQzU2Qjo1RUM2QzExRCIsInZpc2l0b3JfaWQiOiI1NTIyMTc0Mjg3MjkxOTM2NjMiLCJyZWdpb25fZWRnZSI6ImFwLXNvdXRoZWFzdC0yIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="dce89679ce8d39edab0cc9a2cb2aeb8625c9ec473397dfb1a4cbb4e0deeed6ba" data-pjax-transient="true" />
 
 
 
@@ -76,11 +76,11 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="ZmExMWM5ODM5ZWU1ZjQ5ZTU0ZmM5ZjIwN2IwM2FjNmJmZWYzYzFlNmE0YWI3YzhiODY5MDNiYmZlNjlhNDJhMHx7InJlbW90ZV9hZGRyZXNzIjoiOTguMTEzLjE2OC40NCIsInJlcXVlc3RfaWQiOiJFOUUwOjNGRDk6N0Y4OTA6QjJFQjY6NUVDNEExOEUiLCJ0aW1lc3RhbXAiOjE1ODk5NDQ3MjIsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="OGZkMmFhZTQ5NWY4YmU5Zjg0OWQzMTc3MDUxMzQzODBjMDc2ZWJkZDc0ZTg0OTczOWUwYjZhMzdlMDZjMzZiNXx7InJlbW90ZV9hZGRyZXNzIjoiOTguMTEzLjE2OC40NCIsInJlcXVlc3RfaWQiOiJGMUY2OjEyMzE6Mzg4NjkzOjRFQzU2Qjo1RUM2QzExRCIsInRpbWVzdGFtcCI6MTU5MDA4Mzg3OCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK,JS_CHUNKING">
 
-  <meta http-equiv="x-pjax-version" content="bec8006ba548f99da99c8e3574cffa5d">
+  <meta http-equiv="x-pjax-version" content="3cfbb82c8cba247b7554e633a4a74100">
   
 
       <link href="https://github.com/nychealth/coronavirus-data/commits/master.atom" rel="alternate" title="Recent Commits to coronavirus-data:master" type="application/atom+xml">
@@ -90,7 +90,7 @@
   <meta name="octolytics-dimension-user_id" content="62506468" /><meta name="octolytics-dimension-user_login" content="nychealth" /><meta name="octolytics-dimension-repository_id" content="250296192" /><meta name="octolytics-dimension-repository_nwo" content="nychealth/coronavirus-data" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="250296192" /><meta name="octolytics-dimension-repository_network_root_nwo" content="nychealth/coronavirus-data" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/nychealth/coronavirus-data/blob/master/summary.csv" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -164,7 +164,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="HplgoU86oRGvtMcs8LMgdnkFqYyN++McncbpM7hfDTmOM6dqq7BfxmY4ci/Ai3M+PZyzVu9/VQhrHJ9UZ9/n9w==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="zR4Cr5MU7zVRTcJweiRDYI7dte77hGyQ7cUgvEMGKqNdtMVkd54R4pjBd3NKHBAoykSvNJkA2oQbH1bbnIbAbQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -315,7 +315,7 @@
       <img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/44788963?s=40&amp;v=4" width="20" height="20" alt="@cgseife" />
       cgseife
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="WrhUBh9dzf0c5g3qyrqzTavRgcZMOxo9jsPVbxUrNVGqlYjvRMtru7PIXTOfs+r6TYGXrbMfehokx1OOC1nUwQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="1zFsR/qk6F52WBXwDLqBeN6bTieE+IeJiEJoAFWToCUnHLCuoTJOGNl2RSlZs9jPOMtYTHvc564iRu7hS+FBtQ==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 17" version="1.1" width="16" height="17" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"></path></svg>
         Sign out
@@ -412,7 +412,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:62506468,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:44788963,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;}}" data-hydro-click-hmac="78b677030d68256f366014b005e60ffedf04c5f8759c22e7e9726d516e0a86a0">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:62506468,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:44788963,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;}}" data-hydro-click-hmac="fc3832286095d04256f378f670630cbfef2551a7752209c1149beeae60018b75">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -439,7 +439,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="jCaFYv5yVAmUkARxXJ1anIvEUqAAoFaKB7Ys7jvGDnmK7ILunuHzW/JaqNTSOWUJI1CCxxLYamRthehPccc/sQ==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="f6uPtvL57l2/poKzZRB1nnphUts9ynEQiaR7vLt6hxd5YYg6kmpJD9lsLhbrtEoL0vWCvC+yTf7jl78d8Xu23w==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
@@ -557,22 +557,22 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-05-19T23:48:42-04:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-05-21T14:27:58-04:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-05-20T00:18:42-04:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-05-21T14:57:58-04:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-05-20T03:18:42-04:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-05-21T17:57:58-04:00">
             in 4 hours
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2020-05-19T23:59:59-04:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2020-05-21T23:59:59-04:00">
             today
           </button>
         </li>
@@ -624,10 +624,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/cgseife/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}"
-    data-feature-preview-close-hmac="ddbafa79600db88ce7f54c6889ba5c71e7112f1a3ecf816ca3c19d417f279f9a"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}"
-    data-hydro-click-hmac="d71f53ccc071980182e70f67609f502d92cb38d9d07826faadd4f897f51b6040"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}"
+    data-feature-preview-close-hmac="019afacbca34167f8f01c3b34a0f115f7bb72c4f72ccac982899c27a5b549a99"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}"
+    data-hydro-click-hmac="4a1b0012ec0d3dec0292de306d340def31ff074dfd45de9905bcd9ef71696825"
   >
     Feature preview
   </button>
@@ -636,12 +636,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="km3vg6Z/OBL18HBLyHRCfXvD1KTaT3oNn/JpBf7NCl9iQDNq/emeVFreIJKdfRvKnZPCzyVrGio19u/k4L/rzw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UoK7srBvSAMYFMvLIx5gXUbKdm1UBF5w8nkW2mbrAxuir2db6/nuRbc6mxJ2FznqoJpgBqsgPldYfZA7eJniiw==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_efc8" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1589944722364" class="form-control" /><input type="hidden" name="timestamp_secret" value="c8262999877190947c82257fd7d2e5c7c86ebd7e442fcf8e1499d9a1cb611e8e" class="form-control" />
+      <input type="text" name="required_field_a7ee" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1590083878379" class="form-control" /><input type="hidden" name="timestamp_secret" value="6625c191e4de444c4e10926f55a00f4e852d8997206f23d6a35ded024d924e25" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -698,10 +698,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="7a8cdd667e16d95edca34d3b59a7934637243955d3e9f30d4702b60c8b8b25a5" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="5e60a8760f1e4a690289f210992e5357d8490e50c7bbede414f2c610eec92b62" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="H+I1OqrPl4/lb9lhsdpFTuF6fig3AhLS8nc7ba3Z5EqIDwgKnkyqR3aMvSyY9d9adX0x+uIfD+C1m7YqJ51CQA==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="7bc76f6450b1e139bd502feb3d31f038e41bbb35b923a9e4e199455b15e6222c">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="sbCTufucDAgnjg1TH5BnxVO5Gd2jtz32psYqUh9z4rcmXa6Jzx8xwLRtaR42v/3Rx75WD3aqIMThKqcVlTdEvQ==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="7e8ed619f4411cda900ddc0ca036e963a5049912fc60c9681bbfe4f9c0a40ddf">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
 </button></form>  </div>
 </div>
@@ -747,10 +747,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="gPEtrmRKwzlQvbQ3J29QGgedf6g6eciK3dfgD0e7WhS8ACy7eEan92VBuSM50WYV2k42N6gM8q2rkz08ITgMtg==" />      <input type="hidden" name="repository_id" value="250296192">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7CoKlQ3G+zPklj9vweWsBrkhZGExy4mNndjND+knQLXQ2wuAEcqf/dFqMnvfW5oJZPIt/qO+s6rrnBA8j6QWFw==" />      <input type="hidden" name="repository_id" value="250296192">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="4496faac3724783d2d3512b444050ff983ce8e57d188750687233fd0f1a48d10" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="0611a81220fc3a122d851fdbee92063d8e831f3c82f0e72a26d43f5e503a948a" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
               Watch
           </span>
@@ -821,37 +821,37 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container on">
-    <form class="starred js-social-form" action="/nychealth/coronavirus-data/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="h3NcPgchq3cD/1pth0vwDt6dM2CuO7xk0yCpVNIlrQOohXniCcjzDT6FbEoCUNrr9zqq/ae+6Dxq1Fn76quO7w==" />
+    <form class="starred js-social-form" action="/nychealth/coronavirus-data/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="N1nh7mraSknyBR187VERod07r859FL+DrEWYpejVGaYYr8QyZDMSM89/K1toSjtE9Jw2U3SR69sVsWgK0Fs6Sg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar nychealth/coronavirus-data" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="0c535ca63c19c142b76741296a94f05b1257e5f569bdcb31078be35bc786ca24" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar nychealth/coronavirus-data" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="c73cee0ecc97d99caf742c90de3572d282b6087191b2896e7679c479500991d9" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/nychealth/coronavirus-data/stargazers"
-           aria-label="566 users starred this repository">
-           566
+           aria-label="573 users starred this repository">
+           573
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/nychealth/coronavirus-data/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="kVgX/DF9G4RL1p8YCtSFC7yTTBcr0YHEVBZlJ+0bKiXpc9fHW1uoedNfkUz6lV57Z2bXlGodhgIrG5VIYzz85g==" />
+    <form class="unstarred js-social-form" action="/nychealth/coronavirus-data/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0M1ZFOYLPPzKCbMdG++zuzafBddw1DxFl1LA6TT9z0+o5pkvjC2PAVKAvUnrrmjL7WqeVDEYO4PoXzCGutoZjA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star nychealth/coronavirus-data" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="feb7707c12debf0e35d5a3f3e96be21b840d91068a8c1d4ab25035bf8aa222a2" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star nychealth/coronavirus-data" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="cea55f08949d9151251c205bb7b1b0590d30f6eeb9dc5e15496e77ad83de9b2d" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/nychealth/coronavirus-data/stargazers"
-           aria-label="566 users starred this repository">
-          566
+           aria-label="573 users starred this repository">
+          573
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/nychealth/coronavirus-data/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DrRh9FCbZDLAx9f/FP2hesIWrI32YIhfIEY3TyFDnn2N79FQW6ZbCaFPh6DMHs6XHpKTlpGSl1Yk8CRWiT3njg==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/deaths/probable-confirmed-dod.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="50deff0f1ff100399bebcddd31c9c04e3dfa335a10bed8eb0dd660407205bce8" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of nychealth/coronavirus-data to your account" aria-label="Fork your own copy of nychealth/coronavirus-data to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/nychealth/coronavirus-data/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lY8bnMuP0F9OxopchiMiO5XQwZhX/0uybwTlS3UpzqAW1Ks4wLLvZC9O2gNewE3WSVT+gzANVLtrsvZS3Ve3Uw==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:250296192,&quot;originating_url&quot;:&quot;https://github.com/nychealth/coronavirus-data/blob/master/summary.csv&quot;,&quot;user_id&quot;:44788963}}" data-hydro-click-hmac="d04d97669acfa02784bfa79f2f23d4ac2caf7dd407acb5bccce9bd2f98a2d544" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of nychealth/coronavirus-data to your account" aria-label="Fork your own copy of nychealth/coronavirus-data to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
               Fork
 </button></form>
     <a href="/nychealth/coronavirus-data/network/members" class="social-count"
-       aria-label="242 users forked this repository">
-      242
+       aria-label="249 users forked this repository">
+      249
     </a>
   </li>
 </ul>
@@ -874,7 +874,7 @@
         <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /nychealth/coronavirus-data/issues" href="/nychealth/coronavirus-data/issues">
           <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></div>
           <span itemprop="name">Issues</span>
-          <span class="Counter">42</span>
+          <span class="Counter">38</span>
           <meta itemprop="position" content="2">
 </a>      </li>
 
@@ -938,7 +938,7 @@
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
         <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /nychealth/coronavirus-data/issues" href="/nychealth/coronavirus-data/issues">
           <span itemprop="name">Issues</span>
-          <span class="Counter">42</span>
+          <span class="Counter">38</span>
           <meta itemprop="position" content="2">
 </a>      </span>
 
@@ -1002,9 +1002,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/nychealth/coronavirus-data/blob/e57a1f574f1b0dabe588dbcf36eec42d88e1a7bc/deaths/probable-confirmed-dod.csv">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/nychealth/coronavirus-data/blob/c5cb7417b5ecb836f9727d6996f97d3cd050ba8d/summary.csv">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:c427e928080a352042d41966cc988980 -->
+    <!-- blob contrib key: blob_contributors:v22:48771f1aea1b6378cb8b57abe7b2f99a -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -1019,7 +1019,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/nychealth/coronavirus-data/refs/master/deaths/probable-confirmed-dod.csv?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/nychealth/coronavirus-data/refs/master/summary.csv?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
@@ -1035,13 +1035,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="deaths/probable-confirmed-dod.csv" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="summary.csv" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/nychealth/coronavirus-data"><span>coronavirus-data</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/nychealth/coronavirus-data/tree/master/deaths"><span>deaths</span></a></span><span class="separator">/</span><strong class="final-path">probable-confirmed-dod.csv</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/nychealth/coronavirus-data"><span>coronavirus-data</span></a></span></span><span class="separator">/</span><strong class="final-path">summary.csv</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1051,7 +1051,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="deaths/probable-confirmed-dod.csv" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="summary.csv" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1063,29 +1063,27 @@
   <div class="Box Box--condensed d-flex flex-column flex-shrink-0 mb-3">
       <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
         <span class="pr-md-4 f6">
-          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/mmontesanonyc/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mmontesanonyc"><img class="avatar avatar-user" src="https://avatars2.githubusercontent.com/u/55593359?s=40&amp;v=4" width="20" height="20" alt="@mmontesanonyc" /></a>
-          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/mmontesanonyc/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mmontesanonyc">mmontesanonyc</a>
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/pchan7/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pchan7"><img class="avatar avatar-user" src="https://avatars2.githubusercontent.com/u/63745394?s=40&amp;v=4" width="20" height="20" alt="@pchan7" /></a>
+          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/pchan7/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pchan7">pchan7</a>
             <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="Fix problem with probable-confirmed-dod.csv
-
-Initial upload left out the &quot;probable&quot; column of this file. Uploading a fixed version." class="link-gray" href="/nychealth/coronavirus-data/commit/e57a1f574f1b0dabe588dbcf36eec42d88e1a7bc">Fix problem with probable-confirmed-dod.csv</a>
+              <a data-pjax="true" title="corrected time stamp" class="link-gray" href="/nychealth/coronavirus-data/commit/6948736f92f1dff16b4efac1bd885207bb608f4d">corrected time stamp</a>
             </span>
         </span>
         <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/nychealth/coronavirus-data/commit/e57a1f574f1b0dabe588dbcf36eec42d88e1a7bc" data-pjax>e57a1f5</a>
-          <relative-time datetime="2020-05-19T19:32:14Z" class="no-wrap">May 19, 2020</relative-time>
+          <a class="pr-2 text-mono link-gray" href="/nychealth/coronavirus-data/commit/6948736f92f1dff16b4efac1bd885207bb608f4d" data-pjax>6948736</a>
+          <relative-time datetime="2020-05-21T17:37:42Z" class="no-wrap">May 21, 2020</relative-time>
         </span>
       </div>
 
     <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
       <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
         <summary class="btn-link">
-          <span><strong>1</strong> contributor</span>
+          <span><strong>4</strong> contributors</span>
         </summary>
         <details-dialog
           class="Box Box--overlay d-flex flex-column anim-fade-in fast"
           aria-label="Users who have contributed to this file"
-          src="/nychealth/coronavirus-data/contributors-list/master/deaths/probable-confirmed-dod.csv" preload>
+          src="/nychealth/coronavirus-data/contributors-list/master/summary.csv" preload>
           <div class="Box-header">
             <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
               <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
@@ -1097,6 +1095,18 @@ Initial upload left out the &quot;probable&quot; column of this file. Uploading 
           <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
         </details-dialog>
       </details>
+        <span class="">
+    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/mmontesanonyc/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/nychealth/coronavirus-data/commits/master/summary.csv?author=mmontesanonyc">
+      <img class="avatar mr-1 avatar-user" src="https://avatars2.githubusercontent.com/u/55593359?s=40&amp;v=4" width="20" height="20" alt="@mmontesanonyc" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/pchan7/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/nychealth/coronavirus-data/commits/master/summary.csv?author=pchan7">
+      <img class="avatar mr-1 avatar-user" src="https://avatars2.githubusercontent.com/u/63745394?s=40&amp;v=4" width="20" height="20" alt="@pchan7" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/cthompson2nyc/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/nychealth/coronavirus-data/commits/master/summary.csv?author=cthompson2nyc">
+      <img class="avatar mr-1 avatar-user" src="https://avatars0.githubusercontent.com/u/63755948?s=40&amp;v=4" width="20" height="20" alt="@cthompson2nyc" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/jslutsker/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/nychealth/coronavirus-data/commits/master/summary.csv?author=jslutsker">
+      <img class="avatar mr-1 avatar-user" src="https://avatars1.githubusercontent.com/u/63746712?s=40&amp;v=4" width="20" height="20" alt="@jslutsker" /> 
+</a>
+</span>
+
     </div>
   </div>
 
@@ -1113,17 +1123,17 @@ Initial upload left out the &quot;probable&quot; column of this file. Uploading 
 
       <span class="file-mode" title="File mode">executable file</span>
       <span class="file-info-divider"></span>
-      68 lines (68 sloc)
+      5 lines (5 sloc)
       <span class="file-info-divider"></span>
-    1.18 KB
+    154 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/nychealth/coronavirus-data/raw/master/deaths/probable-confirmed-dod.csv">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/nychealth/coronavirus-data/blame/master/deaths/probable-confirmed-dod.csv">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/nychealth/coronavirus-data/commits/master/deaths/probable-confirmed-dod.csv">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/nychealth/coronavirus-data/raw/master/summary.csv">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/nychealth/coronavirus-data/blame/master/summary.csv">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/nychealth/coronavirus-data/commits/master/summary.csv">History</a>
     </div>
 
 
@@ -1136,13 +1146,13 @@ Initial upload left out the &quot;probable&quot; column of this file. Uploading 
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/nychealth/coronavirus-data/edit/master/deaths/probable-confirmed-dod.csv" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Xas1bJ0sKLqEeNiZZsFAO4M7XMSZ/Y06o2jjOV8K8+BUYvft7e+bw3Z/uAqJI+FX5SIdp9R1gLKE23CLJDwTYg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/nychealth/coronavirus-data/edit/master/summary.csv" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="H/G1rGb06NRBJDl4ChbqX6CiR2+nrpHoloIq3+X56kKB0US/bWzJcLiNovA8FSHZdfiLqzJKZIv7l66fPqm6Zw==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/nychealth/coronavirus-data/delete/master/deaths/probable-confirmed-dod.csv" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="NJIhI//DZqu5JN2YXmWM5kZf9NC8ckUzkdpTqeRuyHs+aWCTsz4t6AchKR1kBOFp+4QDitoOJdLOFg5QJXVd/w==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/nychealth/coronavirus-data/delete/master/summary.csv" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="963iUiineqbEr8ECcYufaikQfflPZlnx7g3PLbsHrSKb2n9nsRXr7TAqk0FTMKVT+yot9YbppazNlVpWbthOCA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
@@ -1167,413 +1177,30 @@ Initial upload left out the &quot;probable&quot; column of this file. Uploading 
       <thead>
         <tr id="LC1" class="js-file-line">
           <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-            <th>date_of_death</th>
-            <th>CONFIRMED_COUNT</th>
-            <th>PROBABLE_COUNT</th>
+            <th>NYC_CASE_COUNT</th>
+            <th>192840</th>
         </tr>
       </thead>
       <tbody>
           <tr id="LC2" class="js-file-line">
             <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-              <td>3/11/2020</td>
-              <td>1</td>
-              <td>0</td>
+              <td>NYC_HOSPITALIZED_COUNT</td>
+              <td>50770</td>
           </tr>
           <tr id="LC3" class="js-file-line">
             <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-              <td>3/14/2020</td>
-              <td>2</td>
-              <td>1</td>
+              <td>NYC_CONFIRMED_DEATH_COUNT</td>
+              <td>16232</td>
           </tr>
           <tr id="LC4" class="js-file-line">
             <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-              <td>3/15/2020</td>
-              <td>5</td>
-              <td>0</td>
+              <td>NYC_PROBABLE_DEATH_COUNT</td>
+              <td>4771</td>
           </tr>
           <tr id="LC5" class="js-file-line">
             <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-              <td>3/16/2020</td>
-              <td>9</td>
-              <td>1</td>
-          </tr>
-          <tr id="LC6" class="js-file-line">
-            <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-              <td>3/17/2020</td>
-              <td>8</td>
-              <td>3</td>
-          </tr>
-          <tr id="LC7" class="js-file-line">
-            <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-              <td>3/18/2020</td>
-              <td>20</td>
-              <td>4</td>
-          </tr>
-          <tr id="LC8" class="js-file-line">
-            <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-              <td>3/19/2020</td>
-              <td>24</td>
-              <td>2</td>
-          </tr>
-          <tr id="LC9" class="js-file-line">
-            <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-              <td>3/20/2020</td>
-              <td>46</td>
-              <td>3</td>
-          </tr>
-          <tr id="LC10" class="js-file-line">
-            <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-              <td>3/21/2020</td>
-              <td>44</td>
-              <td>6</td>
-          </tr>
-          <tr id="LC11" class="js-file-line">
-            <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-              <td>3/22/2020</td>
-              <td>50</td>
-              <td>3</td>
-          </tr>
-          <tr id="LC12" class="js-file-line">
-            <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-              <td>3/23/2020</td>
-              <td>82</td>
-              <td>13</td>
-          </tr>
-          <tr id="LC13" class="js-file-line">
-            <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-              <td>3/24/2020</td>
-              <td>95</td>
-              <td>12</td>
-          </tr>
-          <tr id="LC14" class="js-file-line">
-            <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-              <td>3/25/2020</td>
-              <td>121</td>
-              <td>18</td>
-          </tr>
-          <tr id="LC15" class="js-file-line">
-            <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-              <td>3/26/2020</td>
-              <td>187</td>
-              <td>40</td>
-          </tr>
-          <tr id="LC16" class="js-file-line">
-            <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-              <td>3/27/2020</td>
-              <td>213</td>
-              <td>43</td>
-          </tr>
-          <tr id="LC17" class="js-file-line">
-            <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-              <td>3/28/2020</td>
-              <td>264</td>
-              <td>55</td>
-          </tr>
-          <tr id="LC18" class="js-file-line">
-            <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-              <td>3/29/2020</td>
-              <td>288</td>
-              <td>67</td>
-          </tr>
-          <tr id="LC19" class="js-file-line">
-            <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-              <td>3/30/2020</td>
-              <td>322</td>
-              <td>87</td>
-          </tr>
-          <tr id="LC20" class="js-file-line">
-            <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-              <td>3/31/2020</td>
-              <td>372</td>
-              <td>89</td>
-          </tr>
-          <tr id="LC21" class="js-file-line">
-            <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-              <td>4/1/2020</td>
-              <td>428</td>
-              <td>104</td>
-          </tr>
-          <tr id="LC22" class="js-file-line">
-            <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-              <td>4/2/2020</td>
-              <td>486</td>
-              <td>171</td>
-          </tr>
-          <tr id="LC23" class="js-file-line">
-            <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-              <td>4/3/2020</td>
-              <td>481</td>
-              <td>175</td>
-          </tr>
-          <tr id="LC24" class="js-file-line">
-            <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-              <td>4/4/2020</td>
-              <td>488</td>
-              <td>194</td>
-          </tr>
-          <tr id="LC25" class="js-file-line">
-            <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-              <td>4/5/2020</td>
-              <td>561</td>
-              <td>181</td>
-          </tr>
-          <tr id="LC26" class="js-file-line">
-            <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-              <td>4/6/2020</td>
-              <td>563</td>
-              <td>228</td>
-          </tr>
-          <tr id="LC27" class="js-file-line">
-            <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-              <td>4/7/2020</td>
-              <td>588</td>
-              <td>223</td>
-          </tr>
-          <tr id="LC28" class="js-file-line">
-            <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-              <td>4/8/2020</td>
-              <td>543</td>
-              <td>204</td>
-          </tr>
-          <tr id="LC29" class="js-file-line">
-            <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-              <td>4/9/2020</td>
-              <td>533</td>
-              <td>197</td>
-          </tr>
-          <tr id="LC30" class="js-file-line">
-            <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-              <td>4/10/2020</td>
-              <td>514</td>
-              <td>187</td>
-          </tr>
-          <tr id="LC31" class="js-file-line">
-            <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-              <td>4/11/2020</td>
-              <td>521</td>
-              <td>175</td>
-          </tr>
-          <tr id="LC32" class="js-file-line">
-            <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-              <td>4/12/2020</td>
-              <td>550</td>
-              <td>180</td>
-          </tr>
-          <tr id="LC33" class="js-file-line">
-            <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-              <td>4/13/2020</td>
-              <td>550</td>
-              <td>187</td>
-          </tr>
-          <tr id="LC34" class="js-file-line">
-            <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-              <td>4/14/2020</td>
-              <td>499</td>
-              <td>148</td>
-          </tr>
-          <tr id="LC35" class="js-file-line">
-            <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-              <td>4/15/2020</td>
-              <td>437</td>
-              <td>105</td>
-          </tr>
-          <tr id="LC36" class="js-file-line">
-            <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-              <td>4/16/2020</td>
-              <td>399</td>
-              <td>140</td>
-          </tr>
-          <tr id="LC37" class="js-file-line">
-            <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-              <td>4/17/2020</td>
-              <td>360</td>
-              <td>95</td>
-          </tr>
-          <tr id="LC38" class="js-file-line">
-            <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-              <td>4/18/2020</td>
-              <td>361</td>
-              <td>117</td>
-          </tr>
-          <tr id="LC39" class="js-file-line">
-            <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-              <td>4/19/2020</td>
-              <td>372</td>
-              <td>94</td>
-          </tr>
-          <tr id="LC40" class="js-file-line">
-            <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-              <td>4/20/2020</td>
-              <td>341</td>
-              <td>102</td>
-          </tr>
-          <tr id="LC41" class="js-file-line">
-            <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-              <td>4/21/2020</td>
-              <td>303</td>
-              <td>97</td>
-          </tr>
-          <tr id="LC42" class="js-file-line">
-            <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-              <td>4/22/2020</td>
-              <td>294</td>
-              <td>83</td>
-          </tr>
-          <tr id="LC43" class="js-file-line">
-            <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-              <td>4/23/2020</td>
-              <td>306</td>
-              <td>83</td>
-          </tr>
-          <tr id="LC44" class="js-file-line">
-            <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-              <td>4/24/2020</td>
-              <td>297</td>
-              <td>60</td>
-          </tr>
-          <tr id="LC45" class="js-file-line">
-            <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-              <td>4/25/2020</td>
-              <td>237</td>
-              <td>55</td>
-          </tr>
-          <tr id="LC46" class="js-file-line">
-            <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-              <td>4/26/2020</td>
-              <td>227</td>
-              <td>55</td>
-          </tr>
-          <tr id="LC47" class="js-file-line">
-            <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-              <td>4/27/2020</td>
-              <td>249</td>
-              <td>55</td>
-          </tr>
-          <tr id="LC48" class="js-file-line">
-            <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-              <td>4/28/2020</td>
-              <td>210</td>
-              <td>33</td>
-          </tr>
-          <tr id="LC49" class="js-file-line">
-            <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-              <td>4/29/2020</td>
-              <td>221</td>
-              <td>44</td>
-          </tr>
-          <tr id="LC50" class="js-file-line">
-            <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-              <td>4/30/2020</td>
-              <td>201</td>
-              <td>45</td>
-          </tr>
-          <tr id="LC51" class="js-file-line">
-            <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-              <td>5/1/2020</td>
-              <td>194</td>
-              <td>45</td>
-          </tr>
-          <tr id="LC52" class="js-file-line">
-            <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-              <td>5/2/2020</td>
-              <td>180</td>
-              <td>37</td>
-          </tr>
-          <tr id="LC53" class="js-file-line">
-            <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-              <td>5/3/2020</td>
-              <td>164</td>
-              <td>34</td>
-          </tr>
-          <tr id="LC54" class="js-file-line">
-            <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-              <td>5/4/2020</td>
-              <td>140</td>
-              <td>44</td>
-          </tr>
-          <tr id="LC55" class="js-file-line">
-            <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-              <td>5/5/2020</td>
-              <td>131</td>
-              <td>24</td>
-          </tr>
-          <tr id="LC56" class="js-file-line">
-            <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-              <td>5/6/2020</td>
-              <td>128</td>
-              <td>39</td>
-          </tr>
-          <tr id="LC57" class="js-file-line">
-            <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-              <td>5/7/2020</td>
-              <td>116</td>
-              <td>36</td>
-          </tr>
-          <tr id="LC58" class="js-file-line">
-            <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-              <td>5/8/2020</td>
-              <td>112</td>
-              <td>32</td>
-          </tr>
-          <tr id="LC59" class="js-file-line">
-            <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-              <td>5/9/2020</td>
-              <td>89</td>
-              <td>18</td>
-          </tr>
-          <tr id="LC60" class="js-file-line">
-            <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-              <td>5/10/2020</td>
-              <td>78</td>
-              <td>23</td>
-          </tr>
-          <tr id="LC61" class="js-file-line">
-            <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-              <td>5/11/2020</td>
-              <td>91</td>
-              <td>21</td>
-          </tr>
-          <tr id="LC62" class="js-file-line">
-            <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-              <td>5/12/2020</td>
-              <td>72</td>
-              <td>23</td>
-          </tr>
-          <tr id="LC63" class="js-file-line">
-            <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-              <td>5/13/2020</td>
-              <td>57</td>
-              <td>19</td>
-          </tr>
-          <tr id="LC64" class="js-file-line">
-            <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-              <td>5/14/2020</td>
-              <td>42</td>
-              <td>35</td>
-          </tr>
-          <tr id="LC65" class="js-file-line">
-            <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-              <td>5/15/2020</td>
-              <td>41</td>
-              <td>42</td>
-          </tr>
-          <tr id="LC66" class="js-file-line">
-            <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-              <td>5/16/2020</td>
-              <td>30</td>
-              <td>48</td>
-          </tr>
-          <tr id="LC67" class="js-file-line">
-            <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-              <td>5/17/2020</td>
-              <td>23</td>
-              <td>39</td>
-          </tr>
-          <tr id="LC68" class="js-file-line">
-            <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-              <td>5/18/2020</td>
-              <td>0</td>
-              <td>5</td>
+              <td>DATE_UPDATED</td>
+              <td>May 21, at 1:45 p.m.</td>
           </tr>
       </tbody>
     </table>
@@ -1647,11 +1274,11 @@ Initial upload left out the &quot;probable&quot; column of this file. Uploading 
 
 
     <script crossorigin="anonymous" async="async" integrity="sha512-WcQmT2vhcClFVOaaAJV/M+HqsJ2Gq/myvl6F3gCVBxykazXTs+i5fvxncSXwyG1CSfcrqmLFw/R/bmFYzprX2A==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-59c4264f.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-Qb7XHcWIafGt8U6FsJrxJqGCgszwjKK1zXv1+fAjIz0HDaYppswlGLxEInNMN2dlMBAZnZNSZL8wAvvhKxYx3A==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-41bed71d.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-Y86V8OBlvF6I/7e56GKOOt80Yg1RTGA09uqFFX18aiBtevLbKGxB7sVpCn79fukppFIBqyBTB/s6l0Bhn0kidQ==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-63ce95f0.js"></script>
     <script crossorigin="anonymous" async="async" integrity="sha512-ASMgX6+DJ9LVZX/3Fj0RzibSpfigU83ubvsxxwriojWmuBM3faUp1108gypkhXpqLHEBQhIhjlzDOejzOFd0gA==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-0123205f.js"></script>
     <script crossorigin="anonymous" async="async" integrity="sha512-+6Nd4aRFaWfNCioCSh16u4syBFdf0v/NceXHXkq09bWpEe5bbFHuNcTynuDOFo1rxyzp/d++LXUHy71vQuvVug==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-fba35de1.js"></script>
     
-    <script crossorigin="anonymous" async="async" integrity="sha512-49vCeT/eZkh8nroaOWRMcF8bIWy0nLK0liVCLtuux9Brx7Wi9Pqff72mc637I0JsN1HXBar2CF4Nxv+OpwhijA==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-e3dbc279.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-PmTC6FcmTh7tt6PG9BdqD1c9eJKL/f5MLoojoo97MnYjGEBrjuCzMqVjvaiDJ9Od4KZaR08pufgaXDueTvqUcw==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-3e64c2e8.js"></script>
     
         <script crossorigin="anonymous" async="async" integrity="sha512-urN6bhHnHu4C12A+cTH3dOp+CwLaycy2HUXr95hvu5pbYRdF8z6iR+UQcTZutQ6mZG3Njluw2MTZVCNmwcqh8g==" type="application/javascript" data-module-id="./randomColor.js" data-src="https://github.githubassets.com/assets/randomColor-bab37a6e.js"></script>
         <script crossorigin="anonymous" async="async" integrity="sha512-3Vk1NFIOm+TBUMM6pTA6DCUwwLLnc/QIT8jpENm71InvSU8O4p2plDagpst1tH1l+9jOBnneaXZnAskA9a2b3w==" type="application/javascript" data-module-id="./gist-vendor.js" data-src="https://github.githubassets.com/assets/gist-vendor-dd593534.js"></script>
